@@ -1,0 +1,7 @@
+<!--main-->
+<p>숫자 세는 프로그램입니다.</p>
+<!--result라는 이름을 가진 곳으로 보내줌.get방식으로 데이터보냄-->
+<form action="{% url 'result' %}"> <!--우선 action 부분은 비워둡니다.-->
+    <textarea cola="40" rows="10" name="totaltext"></textarea>
+    <input type="submit" value="계산하기!">
+</form>
